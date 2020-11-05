@@ -1,5 +1,5 @@
 //Print powers of 2
-/*let n =Math.floor((Math.random())*10);
+let n =Math.floor((Math.random())*10);
 console.log(n);
 let a=1;
 for (var i=0;i<n;i++){
