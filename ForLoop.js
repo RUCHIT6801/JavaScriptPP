@@ -17,18 +17,18 @@ for (var i=1;i<b+1;i++){
 console.log(c);
 
 //Determine if a number is prime
-let number =Math.floor((Math.random())*100);
-console.log(number);
+    let number =Math.floor((Math.random())*100);
+    console.log(number);
 
-for (var d=2;d<number+1;d++){
-     if(d==number){
-        console.log("Number is prime");
-        return;
-    }else if(number%d==0){
-        console.log("Number is not prime");
-        return;
+    for (var d=2;d<number+1;d++){
+        if(d==number){
+            console.log("Number is prime");
+            return;
+        }else if(number%d==0){
+            console.log("Number is not prime");
+            return;
+        }
     }
-}*/
 
 //Print prime numbers in given range 
 let a = Math.floor((Math.random())*100);
