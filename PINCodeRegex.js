@@ -1,4 +1,4 @@
-const pinCodeRegex = RegExp("^\\d{6}$");
+const pinCodeRegex = RegExp("^[0-9]{3}\\s?[0-9]{3}$");
 
 function testPinCode(pinCode) {
     if (pinCodeRegex.test(pinCode)) return true;
@@ -24,3 +24,11 @@ try {
 } catch (e) {
     console.error(e);
 }
+
+//UC4 Valid Space
+try {
+    console.log("UC4");
+    console.log(testPinCode("400 088"));
+  } catch (e) {
+    console.error(e);
+  }
